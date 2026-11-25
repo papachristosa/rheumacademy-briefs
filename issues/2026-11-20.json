@@ -1,6 +1,6 @@
 {
   "title": "Willingness for TKA, Step Counts and the Thumb Base",
-  "pdf_title": "Weekly AHP Evidence Brief: Willingness for TKA, Step Counts and the Thumb Base",
+  "pdf_title": "AHP Week in Review: Willingness for TKA, Step Counts and the Thumb Base",
   "subtitle": "Ten findings from the week of November 16, 2026, with the numbers to use in clinic",
   "intro": "This week's papers kept showing a gap between what patients tell us and what gets measured or recorded. Self-reported activity in axSpA did not match recorded step counts in most patients who rated themselves active. In a small giant cell arteritis study, low CRP together with absent large-vessel PET uptake was linked to visual impairment, and stated willingness to have knee surgery was more strongly associated with a surgical recommendation in men than in women. The hand papers gave OTs long-term figures to quote on both conservative and surgical options.",
   "closing": "Two of these items are measurement changes I can make next week: a structured willingness and function record for knee OA referrals, and a week of step data for axSpA patients who describe themselves as active. The contraception and post-fracture findings point to gaps that a structured prompt at each nursing review could help close. Full sources are linked under each item.",
@@ -16,7 +16,7 @@
     {
       "number": 2,
       "heading": "Nearly one in five dermatomyositis patients had peripheral neuropathy",
-      "body": "Consider a woman with classic dermatomyositis who reports numb feet and new unsteadiness on stairs while her CK is well controlled. Part of her limitation may be neuropathic. In a single-centre cohort of 640 patients with DM, 120 (18.8%) had clinically documented peripheral neuropathy after secondary causes were excluded, identified by record review at a median of 3 years after diagnosis. Among the 39 patients with positive nerve conduction studies, axonal features predominated (37 of 39). Neuropathy was more common in patients with arthralgia (79.2% vs 18.2%, P<.001) and Raynaud syndrome (55.8% vs 38.7%, P<.001).",
+      "body": "Consider a woman with classic dermatomyositis who reports numb feet and new unsteadiness on stairs while her CK is well controlled. Part of her limitation may be neuropathic. In a single-centre cohort of 640 patients with DM, 120 (18.8%) had clinically documented peripheral neuropathy after secondary causes were excluded, identified by record review at a median of 3 years after diagnosis. Among the 39 patients with positive nerve conduction studies, axonal features predominated (37 of 39). Patients with neuropathy more often had arthralgia (79.2% vs 18.2%, P<.001) and Raynaud syndrome (55.8% vs 38.7%, P<.001) than those without.",
       "takeaway": "Add a brief sensory screen and a balance measure to myositis reassessments. If a strength plateau comes with distal sensory change, flag it for nerve conduction studies before you escalate resistance load.",
       "source": "JAMA Dermatology",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43050210/"
@@ -87,7 +87,7 @@
     }
   ],
   "date": "2026-11-20",
-  "pdf_sha256": "049b414f7a1f7ea9f227d0351c84449dffa4479f80f212e925de0ad2ea85bb08",
+  "pdf_sha256": "f9981c62137b34b0e62ac066a2cdcb97ec96ff593a7d4318bc85e22da4e117bc",
   "locked": false,
   "open_items": [
     1,
