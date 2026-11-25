@@ -1,0 +1,97 @@
+{
+  "title": "Willingness for TKA, Step Counts and the Thumb Base",
+  "pdf_title": "Weekly AHP Evidence Brief: Willingness for TKA, Step Counts and the Thumb Base",
+  "subtitle": "Ten findings from the week of November 16, 2026, with the numbers to use in clinic",
+  "intro": "This week's papers kept showing a gap between what patients tell us and what gets measured or recorded. Self-reported activity in axSpA did not match recorded step counts in most patients who rated themselves active. In a small giant cell arteritis study, low CRP together with absent large-vessel PET uptake was linked to visual impairment, and stated willingness to have knee surgery was more strongly associated with a surgical recommendation in men than in women. The hand papers gave OTs long-term figures to quote on both conservative and surgical options.",
+  "closing": "Two of these items are measurement changes I can make next week: a structured willingness and function record for knee OA referrals, and a week of step data for axSpA patients who describe themselves as active. The contraception and post-fracture findings point to gaps that a structured prompt at each nursing review could help close. Full sources are linked under each item.",
+  "items": [
+    {
+      "number": 1,
+      "heading": "Willingness was more strongly associated with a TKA recommendation in men than in women",
+      "body": "5.03 versus 2.15. Those are the adjusted risk ratios for a 'definitely willing' patient being recommended total knee arthroplasty, in men (95% CI 3.04-8.33) and women (95% CI 1.68-2.75). The data come from a cross-sectional study of 2,035 patients, nested in an Alberta cohort of people with knee OA referred to hip and knee surgery clinics between 2014 and 2017. Women also had lower adjusted odds of being willing (OR 0.67, 95% CI 0.51-0.88). The authors present the difference as an association that raises concern about bias at the point where willingness becomes a surgical recommendation.",
+      "takeaway": "If you triage knee OA referrals, record willingness and functional status in the same structured format for every patient before the surgical consult. The surgeon then receives comparable information regardless of the patient's sex.",
+      "source": "Journal of Rheumatology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42880894/"
+    },
+    {
+      "number": 2,
+      "heading": "Nearly one in five dermatomyositis patients had peripheral neuropathy",
+      "body": "Consider a woman with classic dermatomyositis who reports numb feet and new unsteadiness on stairs while her CK is well controlled. Part of her limitation may be neuropathic. In a single-centre cohort of 640 patients with DM, 120 (18.8%) had clinically documented peripheral neuropathy after secondary causes were excluded, identified by record review at a median of 3 years after diagnosis. Among the 39 patients with positive nerve conduction studies, axonal features predominated (37 of 39). Neuropathy was more common in patients with arthralgia (79.2% vs 18.2%, P<.001) and Raynaud syndrome (55.8% vs 38.7%, P<.001).",
+      "takeaway": "Add a brief sensory screen and a balance measure to myositis reassessments. If a strength plateau comes with distal sensory change, flag it for nerve conduction studies before you escalate resistance load.",
+      "source": "JAMA Dermatology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43050210/"
+    },
+    {
+      "number": 3,
+      "heading": "Cochrane: turmeric may give little to no improvement in knee OA pain or function",
+      "body": "Turmeric is the supplement my knee OA patients ask about most often. A Cochrane review of nine trials (1,245 participants, all with knee OA) concluded that, compared with placebo, Curcuma longa may result in little to no improvement in pain, function or quality of life. In the four placebo-controlled trials, pain at three months was 0.72 points lower on a 0 to 10 scale (95% CI 1.39 to 0.06 lower), short of the 1.5 points the reviewers set for clinical significance. The evidence was low certainty, downgraded for indirectness and publication bias, and the evidence on harms was very low certainty. Participant-reported global assessment of success may improve. No trial ran longer than three months.",
+      "takeaway": "Tell patients that the best available evidence, low certainty and limited to the knee and to three months, suggests little to no benefit for pain or function. If they want to keep taking it, record it on the medication list and keep loading-based exercise at the centre of the plan.",
+      "source": "Cochrane Database of Systematic Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43051256/"
+    },
+    {
+      "number": 4,
+      "heading": "About four in ten women with rheumatic disease in a Japanese survey had never been counselled on contraception",
+      "body": "In a survey of 157 women with rheumatic disease aged 18 to 45 at 14 Japanese centres, 97 (62%) had ever received information on contraception or reproduction from a health professional, which leaves about four in ten who had not. Of the 95 who described what they were told, 11 (11.6%) were given specific methods or referred to gynaecology. Among the 73 who named a method, 49 (67.1%) used condoms and 15 (20.5%) used withdrawal, a pattern the authors note mirrors the general population in Japan. One antiphospholipid antibody-positive patient was using contraindicated estrogen-containing contraception. Method mix differs in Canada, so the counselling gap is the finding that carries over.",
+      "takeaway": "At every nursing review for a woman of reproductive age on a teratogenic DMARD, ask about pregnancy intention and ask her to name the method she uses. Check any estrogen-containing method against her antiphospholipid antibody status.",
+      "source": "International Journal of Rheumatic Diseases",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040972/"
+    },
+    {
+      "number": 5,
+      "heading": "Self-reported activity in axSpA often did not match recorded step counts",
+      "body": "5,924 was the median daily step count in 63 axSpA patients in remission or low disease activity, recorded over seven consecutive days. 65.1% walked fewer than 7,000 steps a day. Of the 56 patients who reported moderate-to-high activity on the IPAQ, 35 (62.5%) fell under that threshold, which the authors call a discordant pattern. The IPAQ also counts activity that is not walking, so discordance is not the same as over-reporting. Peripheral arthritis was independently associated with discordance (OR 8.98, 95% CI 1.99-40.58), and the wide interval means the size of that association is uncertain.",
+      "takeaway": "When an axSpA patient's self-reported activity sounds reassuring, ask for a week of step data from a phone or wearable before you sign off on activity goals. Start with patients who have a history of peripheral arthritis.",
+      "source": "Reumatismo",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042482/"
+    },
+    {
+      "number": 6,
+      "heading": "84% of patients with thumb CMC instability had not had surgery after exercise-based care",
+      "body": "84% of 262 patients with non-traumatic thumb CMC instability treated with exercise therapy and an optional orthosis had not undergone surgery at a median follow-up of 5.9 years. The 16% who did proceed had surgery at a median of 4.2 months. Among those who stayed non-operative, mean VAS pain fell from 50 to 24 at 12 months and VAS function rose from 57 to 81, and both held over long-term follow-up. This was a multicentre cohort with no surgical comparator.",
+      "takeaway": "When a patient with thumb-base instability asks whether exercise and splinting just delay surgery, quote this cohort. Most did not reach surgery over nearly six years, and half of those who did had it within about four months.",
+      "source": "Journal of Hand Therapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039752/"
+    },
+    {
+      "number": 7,
+      "heading": "Fewer than one in ten women started osteoporosis treatment within two years of a fracture",
+      "body": "8.7% of 722,022 treatment-naïve US Medicare women started osteoporosis treatment during up to two years of follow-up after an incident fracture, in claims from 2010 to 2019. The two-year probability of initiation was lowest among non-Hispanic Black women at 7.0% (95% CI 6.6-7.3%) and highest among Asian American/Pacific Islander women at 16.8% (95% CI 15.9-17.7%), which still left more than four in five of that group untreated. Compared with non-Hispanic White women, non-Hispanic Black women were less likely to start treatment (adjusted HR 0.65, 95% CI 0.62-0.68). The authors did not examine how these differences relate to subsequent fracture or mortality.",
+      "takeaway": "If you run or refer into a fracture liaison pathway, build active case-finding from fracture lists and add a nurse-led call at three months to confirm treatment has started. In this cohort, more than nine in ten women had no treatment started during follow-up.",
+      "source": "Journal of Bone and Mineral Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43049201/"
+    },
+    {
+      "number": 8,
+      "heading": "In GCA, low CRP with absent large-vessel PET uptake was linked to visual impairment",
+      "body": "A 74-year-old woman calls with new temporal headache, and her CRP comes back near normal. In a retrospective PET/CT study of 54 patients with giant cell arteritis, absent FDG uptake in the thoracic aorta and subclavian arteries was associated with visual impairment. Among patients with cranial symptoms, absent large-vessel uptake combined with low CRP identified a subgroup with a 90.0% incidence of visual impairment (OR 49.1, with no confidence interval in the abstract). The authors label the finding hypothesis-generating.",
+      "takeaway": "Keep the same triage urgency for suspected GCA with cranial symptoms when the CRP is low. Route these calls for same-day assessment, as you would any suspected GCA.",
+      "source": "Clinical Rheumatology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43052629/"
+    },
+    {
+      "number": 9,
+      "heading": "Swanson MCP arthroplasty in RA relieved pain but did not improve grip or pinch",
+      "body": "Pain was markedly relieved in 77 of 86 RA patients followed 9 to 20 years after Swanson MCP arthroplasty in a retrospective series. Grip and pinch strength showed no significant change (P>0.05), and total active motion was also unchanged. Active MCP flexion, extension and ulnar deviation angle improved (P<0.05), although ulnar deviation recurred to some degree in all patients and 3 needed revision. Pain worsened in 5 patients, and prosthesis fracture occurred in 9 joints (3.7%).",
+      "takeaway": "Before surgery, set expectations around pain relief, and explain that ulnar drift improved but recurred to some degree in every patient. Plan post-operative OT around joint protection and adaptive technique for grip-dependent tasks, because the implant alone did not change grip or pinch.",
+      "source": "Chinese Journal of Reparative and Reconstructive Surgery",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43046560/"
+    },
+    {
+      "number": 10,
+      "heading": "Persistently tender, non-swollen RA joints were associated with Doppler signal and erosion",
+      "body": "84% of 200 patients with established RA starting a DMARD had at least one tender joint without swelling (168/200). Most of these joints were no longer tender at week 24: tenderness persisted in 18.9% of those without baseline power Doppler signal (101/533) and 29.9% of those with it (32/107). Baseline Doppler signal was associated with persistence (OR 2.72, 95% CI 1.34-5.55), as was erosion. Higher HAQ was associated with lower odds of a 50% tender joint count response (OR 0.34, 95% CI 0.16-0.70).",
+      "takeaway": "When a patient's tender joint count stays high without swelling, flag those joints for ultrasound before the pain is attributed to central sensitisation. Baseline Doppler signal and erosion raised the odds that a joint stayed tender, though most persistently tender joints had no Doppler signal at baseline (101 of 133).",
+      "source": "Rheumatology (Oxford)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43046620/"
+    }
+  ],
+  "date": "2026-11-20",
+  "pdf_sha256": "049b414f7a1f7ea9f227d0351c84449dffa4479f80f212e925de0ad2ea85bb08",
+  "locked": false,
+  "open_items": [
+    1,
+    2,
+    3
+  ]
+}
