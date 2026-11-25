@@ -1,0 +1,67 @@
+name: Build site
+
+# Runs when a brief PDF is added or replaced, or an issue file is edited.
+# It reads the PDF, writes the preview page, the index and the feed, saves
+# them back to main, and asks GitHub Pages to publish.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'briefs/*.pdf'
+      - 'issues/*.json'
+      - 'build.py'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          pip install --quiet pypdf
+
+      # A PDF that does not read as a brief fails here, before anything is
+      # published. GitHub emails the failure.
+      - name: Build
+        run: python build.py
+
+      - name: Save the built pages
+        id: save
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing changed."
+          else
+            git commit -m "Build site"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # A commit made by this workflow does not start a Pages build by
+      # itself, so one is requested explicitly.
+      - name: Publish
+        if: steps.save.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
