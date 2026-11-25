@@ -54,6 +54,19 @@ TAGLINE = ("Ten new rheumatology papers every Friday, with the key numbers "
 DISCLAIMER = "Educational content for health professionals. Not medical advice."
 DEFAULT_OPEN = [1, 2, 3]
 
+# Course line shown under each preview and under the list of briefs. Shown
+# up to and including "until" (the day registration closes); pages built
+# after that date leave it out. For the next cohort, update all four fields.
+# The same line is in blog_generator.py (BOOTCAMP_PROMO) in rheum-monitor.
+BOOTCAMP = {
+    "name": "Rheumatology Bootcamp 101",
+    "text": ("March 4 to 7, 2027. A four-day hybrid course for allied "
+             "health professionals, taught by practising clinicians. "
+             "Two virtual evenings and two hands-on days in Toronto."),
+    "url": "https://bootcamp.rheumacademy.com",
+    "until": "2027-03-02",
+}
+
 _DATE_RE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})$")
 _NUM_RE = re.compile(r"^(\d{1,2})\.$")
 
@@ -280,6 +293,9 @@ CSS = """
   .take b { color:var(--teal-d); }
   .src { font-size:13.5px; color:var(--grey); margin:0; }
   .panel { margin-top:30px; }
+  .course { margin-top:26px; padding:14px 18px; border-left:3px solid var(--navy); background:#f5f6f8; font-size:14.5px; display:flex; flex-wrap:wrap; gap:8px 18px; align-items:center; justify-content:space-between; }
+  .course p { margin:0; max-width:640px; }
+  .course a { font-weight:bold; white-space:nowrap; }
   footer { border-top:1px solid var(--rule); color:var(--grey); font-size:12px; text-align:center; padding:20px; }
   @media (max-width:640px) {
     .hero { flex-direction:column; align-items:flex-start; padding-top:28px; }
@@ -345,6 +361,20 @@ FOOT = f"""
 </body>
 </html>
 """
+
+
+def course_line(today: date = None) -> str:
+    """The Bootcamp strip, or '' once registration has closed."""
+    try:
+        if (today or date.today()) > date.fromisoformat(BOOTCAMP["until"]):
+            return ""
+    except (KeyError, ValueError):
+        return ""
+    return f"""
+    <aside class="course">
+      <p><b>From RheumAcademy: {e(BOOTCAMP["name"])}.</b> {e(BOOTCAMP["text"])}</p>
+      <a href="{e(BOOTCAMP["url"])}">See the course</a>
+    </aside>"""
 
 
 def _open_numbers(issue: dict) -> list:
@@ -428,6 +458,7 @@ def issue_page(issue: dict) -> str:
       <p>{more}</p>
       <a class="btn" href="{SUBSCRIBE_URL}">Subscribe free</a>
     </div>
+{course_line()}
   </article>
 </main>
 """ + FOOT
@@ -485,6 +516,7 @@ def index_page(issues: list) -> str:
 <main id="main">
   <h2>Briefs</h2>
 {''.join(cards)}
+{course_line()}
 </main>
 """ + FOOT
 

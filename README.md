@@ -32,6 +32,14 @@ from it and your `open_items` choice is kept.
 To change the web text without touching the PDF, edit the issue's `.json`
 file and set `"locked": true`, so it is not read from the PDF again.
 
+## The Bootcamp line
+
+Each page carries one line about the next Bootcamp. Its wording, link and
+end date are in `BOOTCAMP` near the top of `build.py`. Pages built after the
+end date leave the line out. For a new cohort, update those fields; the
+matching line in the PDF is `BOOTCAMP_PROMO` in rheum-monitor's
+`blog_generator.py`.
+
 ## What is public
 
 Nothing on the site links to the PDFs. They stay at
