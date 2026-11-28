@@ -48,15 +48,34 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "Nothing changed."
-          else
-            git commit -m "Build site"
-            git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          # If someone pushes while this run is building, the push below is
+          # refused. Then start again from the newest main and rebuild, so
+          # the saved pages always include every change. Up to three tries.
+          changed=false
+          pending=false
+          for attempt in 1 2 3; do
+            pending=false
+            git add -A
+            if git diff --cached --quiet; then
+              echo "Nothing changed."
+              break
+            fi
+            git commit -q -m "Build site"
+            if git push; then
+              changed=true
+              break
+            fi
+            pending=true
+            echo "Push refused (attempt $attempt). Rebuilding from the newest main."
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python build.py
+          done
+          if [ "$pending" = true ]; then
+            echo "::error::Could not save the built pages after three tries."
+            exit 1
           fi
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
 
       # A commit made by this workflow does not start a Pages build by
       # itself, so one is requested explicitly.
