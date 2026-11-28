@@ -1,0 +1,97 @@
+{
+  "title": "Outside Prescriptions, the Lateral Hip and Zoledronate Fever",
+  "pdf_title": "AHP Week in Review: Outside Prescriptions, the Lateral Hip and Zoledronate Fever",
+  "subtitle": "Ten findings for allied health practice from November 21 to 27, 2026",
+  "intro": "Several of this week's findings concern patients who are already inside a care pathway but are being missed by it, from high-risk prescriptions written outside rheumatology to vaccination gaps patients cannot see. The exercise evidence was stronger than usual: a Tai Chi trial outperformed an active home-exercise comparator in sarcopenic knee OA. A small randomised trial also gives infusion teams a concrete option for reducing fever after a first zoledronate infusion.",
+  "closing": "Most of this week's actions cost a question or a screening tool rather than new equipment or staff. The CSI and a GTPS test cluster each fit inside an existing appointment, and checking the vaccination register takes about as long as asking the patient. The Tai Chi and zoledronate trials are the two results this week that support changing what you offer patients, rather than only what you ask them.",
+  "items": [
+    {
+      "number": 1,
+      "heading": "Most high-risk prescriptions in older rheumatic patients come from outside rheumatology",
+      "body": "In older adults with rheumatic disease, 82.3% of high-risk medication prescriptions came from non-rheumatology clinicians. Among 45,455 US Medicare patients seen at rheumatology practices in the ACR's RISE registry (mean age 75.8, 76.9% female), 30.7% received at least one high-risk medication, and skeletal muscle relaxants and Z-drugs were among the common agents. Patients with axSpA (OR 1.40, 95% CI 1.20-1.62) and Sjögren's disease (OR 1.39, 95% CI 1.04-1.86) had the highest odds compared with RA.",
+      "takeaway": "At any falls or function review in a patient over 65, run a full medication reconciliation that includes prescriptions from primary care and other specialists. Most of these agents were prescribed outside rheumatology, so ask about them directly rather than relying on the rheumatology medication list.",
+      "source": "Arthritis & Rheumatology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43059569/"
+    },
+    {
+      "number": 2,
+      "heading": "Three days of dexamethasone reduced fever after a first zoledronate infusion",
+      "body": "In the control arm, 66.7% of first-time zoledronate recipients developed a fever of 37.8 °C or higher. In this open-label RCT of 50 analysed patients, oral dexamethasone 4 mg on the infusion day and the two days after reduced that to 26.9% (p = 0.01, NNT 2.5). The primary outcome, change in temperature from baseline over three days, favoured dexamethasone by 0.35 °C (95% CI 0.19 to 0.51). Rescue paracetamol use fell from 79.2% to 46.2% (p = 0.022). Sixty-two percent of participants had diabetes.",
+      "takeaway": "For first-time zoledronate patients, raise dexamethasone prophylaxis with the prescribing team, who will weigh it against blood glucose in patients with diabetes. Update infusion-day education so it explains the acute-phase reaction and the option to reduce it. This is one small open-label trial, so any protocol change should go through the prescriber.",
+      "source": "Osteoporosis International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43097007/"
+    },
+    {
+      "number": 3,
+      "heading": "One in three hips awaiting replacement also has greater trochanteric pain syndrome",
+      "body": "Picture a woman in her late 60s on the hip replacement list who points to the side of her thigh rather than her groin. In a cross-sectional study of 340 hips with advanced OA awaiting THA, clinical GTPS was confirmed by a test cluster in 107 of 332 evaluable hips (32.2%), with a 3:1 female predominance. After adjustment for age, sex and BMI, the dual-pathology group had worse WOMAC function (MD 4.76 points, 95% CI 0.90-8.61).",
+      "takeaway": "When a hip OA patient reports lateral hip pain, run a GTPS test cluster before attributing every symptom to the joint. A positive cluster identifies a second problem you can start treating, for example with gluteal tendon loading, while the patient waits for surgery.",
+      "source": "Osteoarthritis and Cartilage",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085718/"
+    },
+    {
+      "number": 4,
+      "heading": "Nearly half of axSpA patients score in the central sensitisation range",
+      "body": "Across 17 observational studies and 1,278 patients, 48.5% of people with axSpA scored 40 or above on the Central Sensitization Inventory (95% CI 44.1-52.8%; I = 55%). Those patients had worse BASDAI (SMD 1.76, 95% CI 1.21-2.31), about 3 points on the 0 to 10 scale, and worse pain VAS (SMD 1.32, 95% CI 0.91-1.73). Heterogeneity on the BASDAI estimate was high (I = 88%), and GRADE certainty was low for prevalence and very low for most outcomes.",
+      "takeaway": "For the axSpA patient whose BASDAI stays high on a biologic with normal inflammatory markers, give the CSI before you progress mobility work. A score of 40 or above points the next sessions toward pain neuroscience education and graded exposure.",
+      "source": "Reumatología Clínica",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43098591/"
+    },
+    {
+      "number": 5,
+      "heading": "Tai Chi beat education plus home exercise for mobility in sarcopenic knee OA",
+      "body": "In an assessor-masked trial of 96 adults aged 65 to 85 with sarcopenic knee OA, twelve weeks of simplified 8-form Tai Chi improved Timed Up and Go by 2.52 seconds more than health education plus progressive home exercise (95% CI -3.43 to -1.61). Responders were 58.3% versus 12.5% (adjusted RR 4.81, 95% CI 2.29-10.07), and a smaller benefit persisted at week 26 (-1.46 s, 95% CI -2.41 to -0.52). The mean advantage fell slightly below the prespecified individual improvement threshold of 2.8 seconds. WOMAC pain favoured Tai Chi, but VAS pain did not separate between groups.",
+      "takeaway": "Offer Tai Chi as a mobility option for older patients with sarcopenic knee OA. The comparator was an active home-exercise programme, so this is evidence for adding it, not only for doing something. Record TUG at baseline and at 12 weeks to see whether your patient lands among the responders.",
+      "source": "Osteoarthritis and Cartilage Open",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42893116/"
+    },
+    {
+      "number": 6,
+      "heading": "Knee OA was linked to higher spine T-scores and twice the vertebral fractures",
+      "body": "Among postmenopausal women with chronic knee pain, 54.8% of those with radiographic knee OA had a vertebral fracture, against 27.2% of those without OA. In this retrospective cross-sectional study of 2,005 women at an orthopaedic clinic, lumbar spine T-scores rose with OA severity (P-trend <0.001) while total hip T-scores did not (P-trend = 0.292). The fracture association was attenuated after adjustment for age and BMI but remained significant (adjusted OR 2.03, 95% CI 1.63-2.54), which suggests the spine number can overstate bone strength in this group.",
+      "takeaway": "In a patient with knee OA, read the hip T-score and clinical risk factors before accepting a reassuring spine result. Where back pain or height loss is present, ask the prescriber about vertebral fracture assessment.",
+      "source": "Journal of Clinical Densitometry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43097843/"
+    },
+    {
+      "number": 7,
+      "heading": "Hand symptoms are common in older adults, and few are referred to allied health",
+      "body": "In a four-week audit of consecutive patients aged 70 and over in 16 Danish general practices, 42% of 348 reported hand or finger pain or swelling. Among those 147 symptomatic patients, 61% had clinical findings suggestive of hand OA and 41% reported reduced activities of daily living. Half had never mentioned the symptoms to their GP. Only 11 (7.5%) used an assistive device, and referral to allied health was rare.",
+      "takeaway": "Add a one-line hand screen to intake for patients aged 70 and over seen for any musculoskeletal problem. Where pain on use or stiffness is present, start joint protection education and an assistive device assessment in the same visit.",
+      "source": "Scandinavian Journal of Primary Health Care",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43096993/"
+    },
+    {
+      "number": 8,
+      "heading": "Immunosuppressed patients overestimate their vaccination coverage",
+      "body": "In a survey of 147 immunosuppressed immunology outpatients in Western Sydney, checked against their medical records, 88% believed their vaccinations were up to date, but only 29% were fully compliant. Compliance was 20% in vasculitis and lupus and 10% among patients who were not fluent in English. This is a conference abstract, so sampling details are limited.",
+      "takeaway": "For patients on immunosuppression, check the immunisation register during the visit rather than relying on self-report. Flag any gaps to the prescriber or primary care so catch-up doses are scheduled.",
+      "source": "Journal of Human Immunity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43070556/"
+    },
+    {
+      "number": 9,
+      "heading": "Wearable data did not improve on weekly ePROs for RA disease activity",
+      "body": "Two patient-reported measures collected weekly classified low disease activity at about 12 weeks with an AUROC of 0.843. The 150 participants had moderate-to-high RA activity and were starting adalimumab or upadacitinib at 28 US clinics, and ePRO-based models reached AUROCs of 0.745 to 0.857. In the 96 participants who also wore a sensor, adding wearable data did not improve discrimination and often lowered it, and wearable-only models performed worst.",
+      "takeaway": "If you are scoping a remote RA monitoring pathway, build it on a short weekly ePRO set before budgeting for wearables. Keep sensor programmes for research questions this study did not test.",
+      "source": "Arthritis Care & Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43070173/"
+    },
+    {
+      "number": 10,
+      "heading": "Desk work demands more elbow extension and pronation than classic targets",
+      "body": "Using a computer mouse required more elbow extension than the historically accepted functional range. In healthy volunteers measured with wearable inertial units, most hygiene tasks fell within the 1981 flexion-extension arc of 30° to 130°, but forearm rotation arcs were larger than described then. Office tasks required roughly 15° to 45° of pronation, and reaching for a desk phone also exceeded the classic extension target.",
+      "takeaway": "Set elbow and forearm goals against the patient's actual job tasks, testing pronation and terminal extension at the keyboard and phone. This was a study in healthy volunteers, but for desk workers recovering from elbow fracture or inflammatory synovitis, the 1981 targets may undershoot what they need.",
+      "source": "Journal of Hand Surgery (American)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43083504/"
+    }
+  ],
+  "date": "2026-11-27",
+  "pdf_sha256": "1a65d7e7dbb1225d7f3b9f34d7ee6aeea8697622902af2b93f848c3b22007b39",
+  "locked": false,
+  "open_items": [
+    1,
+    2,
+    3
+  ]
+}
